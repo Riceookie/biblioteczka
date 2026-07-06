@@ -1,6 +1,9 @@
 node_modules
+.next
 dist
+*.log
+
+# Sekrety — NIGDY nie commitujemy prawdziwych kluczy
 .env
 .env.local
-.DS_Store
-*.log
+.env*.local
